@@ -1,0 +1,71 @@
+
+.title {
+     justify-self: center;
+}
+
+h2{
+    color: #7E479B;
+}
+
+.btnContinuar{
+    color: #ffffff;
+}
+
+#crmForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+form input{
+    display: block;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+body{
+    background-image:url("/enzoElucasHackathon/public/images/RELOGIOV2.png") ;
+    background-color: #7E479B, #ffffff;
+}
+
+
+
+  .mensagem-erro, .mensagem-sucesso {
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 300px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mensagem-erro {
+    background-color: #ffe6e6;
+    color: red;
+    border-color: red;
+  }
+  
+  .mensagem-sucesso {
+    background-color: #d4edda;
+    color: green;
+    border-color: green;
+  }
+
+  .containerAcima{
+    justify-self: center;
+    
+  }
+
+  .containerAbaixo{
+    justify-self: center;
+ 
+  }
+

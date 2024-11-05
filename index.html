@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enzo e Lucas</title>
+    <link rel="stylesheet" href="/enzoElucasHackathon/src/css/styles.css">
+</head>
+<body>
+    <div class="title">
+        <img src="/enzoElucasHackathon/public/images/logo_maxi_doctor.png" alt="">
+    </div>
+
+    <form id="crmForm" action="">
+        <h2>A PLATAFORMA DE COMPRA DIRETA DO SEU ANESTÉSICO TÓPICO</h2>
+      
+        <div id="mensagemErro" class="mensagem-erro" style="display: none;">
+          <p>• É obrigatório preencher o CRM, digite apenas números.</p>
+          <p>• Você deve selecionar um estado no campo UF.</p>
+        </div>
+
+        <div id="mensagemSucesso" class="mensagem-sucesso" style="display: none;">
+            <p>Sucesso!</p>
+            <p>Você está sendo redirecionado...</p>
+          </div>
+      
+        <div class="inputs">
+          <label for="crm">CRM</label>
+          <input type="text" id="crm" class="CRM" placeholder="000.000-0">
+      
+      
+        <label for="uf">UF</label>
+        <select id="uf" class="UF">
+        <option value="Selecione">Selecione</option>
+        <option value="SP">SP</option>
+        <option value="RJ">RJ</option>
+        <option value="MG">MG</option>
+        
+        </select>
+
+      
+          <button type="button" class="btnContinuar" >CONTINUAR</button>
+        </div>
+      
+        <h2>CANAL DE COMPRA EXCLUSIVO PARA CLASSE MÉDICA</h2>
+      </form>
+
+    <div class="containerAcima">
+        <img src="/enzoElucasHackathon/public/images/Icone_Facilit.png" alt="">
+        <img src="/enzoElucasHackathon/public/images/Icone_Quanti.png" alt="">
+    
+    </div>
+
+    <div class="containerAbaixo">
+    <img src="/enzoElucasHackathon/public/images/Icone_Frete.png" alt="">
+    <img src="/enzoElucasHackathon/public/images/Icone_Agili.png" alt="">
+    <img src="/enzoElucasHackathon/public/images/Icone_Comodi.png" alt="">
+    </div>
+  
+  
+    <script type="module" src="src/script.js"></script>
+
+        
+</body>
+</html>
